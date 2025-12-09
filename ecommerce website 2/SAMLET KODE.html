@@ -1,0 +1,1418 @@
+SAMLET KODE
+
+
+backup html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlowCare Skincare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav id="nav" class="nav">
+  <div class="nav-container">
+    <div class="logo-container">
+      <img src="SKIN text.png" alt="Logo" class="logo" />
+    </div>
+
+    <div class="nav-links">
+      <h3 class="menuItem">Hydrating Mist</h3>
+      <h3 class="menuItem">Vitamin C Serum</h3>
+      <h3 class="menuItem">Aloe Cleanser</h3>
+      <h3 class="menuItem">Night Repair</h3>
+      <h3 class="menuItem">SPF Lotion</h3>
+    </div>
+
+    <div class="search-bar" style="position: relative;">
+      <input type="text" placeholder="Search skincare..." class="searchInput" />
+      <img src="Search.png" alt="Search Icon" class="searchIcon" />
+      <div class="searchResults" id="searchResults"></div> 
+    </div>
+    
+    <div class="basket">
+      <img src="basket.jpeg" alt="Basket Icon" class="basketIcon" />
+      <span class="basketCount">0</span>
+    </div>    
+  </div>
+</nav>
+
+<div class="slider">
+    <div class="sliderWrapper">
+
+      <div class="sliderItem">
+        <video autoplay muted loop class="sliderImg">
+          <source src="https://cdn.shopify.com/videos/c/vp/c16e24e6246e453daf88a0deab2d2d0b/c16e24e6246e453daf88a0deab2d2d0b.HD-720p-1.6Mbps-44330652.mp4" type="video/mp4">
+        </video>
+        <h1 class="sliderTitle">MOISTURIZE<br>YOUR<br>SKIN</h1>
+        <a href="#product"><button class="buyButton">BUY NOW!</button></a>
+      </div>
+  
+      <div class="sliderItem">
+        <img src="Vitamin c.jpeg" class="sliderImg" />
+        <h1 class="sliderTitle">BRIGHTEN<br>YOUR<br>GLOW</h1>
+        <a href="#product"><button class="buyButton">BUY NOW!</button></a>
+      </div>
+  
+      <div class="sliderItem">
+        <img src="Cleanser.jpeg" class="sliderImg" />
+        <h1 class="sliderTitle">CLEANSE<br>GENTLY</h1>
+        <a href="#product"><button class="buyButton">BUY NOW!</button></a>
+      </div>
+  
+      <div class="sliderItem">
+        <img src="Night repair.jpeg" class="sliderImg" />
+        <h1 class="sliderTitle">REPAIR<br>OVERNIGHT</h1>
+        <a href="#product"><button class="buyButton">BUY NOW!</button></a>
+      </div>
+  
+      <div class="sliderItem">
+        <img src="SPF.jpeg" class="sliderImg" />
+        <h1 class="sliderTitle">PROTECT<br>EVERYDAY</h1>
+        <a href="#product"><button class="buyButton">BUY NOW!</button></a>
+      </div>
+  
+    </div>
+  </div>  
+
+<section class="features">
+  <div class="feature">
+    <img src="shipping.png" alt="" class="featureIcon" />
+    <h3>FREE SHIPPING</h3>
+    <p>Free worldwide shipping on all orders.</p>
+  </div>
+  <div class="feature">
+    <img src="return.png" alt="" class="featureIcon" />
+    <h3>30 DAYS RETURN</h3>
+    <p>No question return and easy refund in 14 days.</p>
+  </div>
+  <div class="feature">
+    <img src="gift.png" alt="" class="featureIcon" />
+    <h3>GIFT CARDS</h3>
+    <p>Buy gift cards and use coupon codes easily.</p>
+  </div>
+
+  <a href="contact.html" class="featureLink">
+  <div class="feature">
+    <img src="contact.png" alt="Contact Us" class="featureIcon" />
+    <h3>CONTACT US!</h3>
+    <p>Keep in touch via email and support system.</p>
+  </div>
+</a>
+</section>
+
+<section class="product" id="product">
+  <img src="serum 7.webp" alt="" class="productImg" />
+  <div class="productDetails">
+    <h1 class="productTitle">Cleanser</h1>
+    <h2 class="productPrice">$19</h2>
+    <p class="productDesc">Give yourself a whole new skincare regimen.</p>
+
+    <div class="colors">
+      <div class="color"></div>
+      <div class="color"></div>
+    </div>
+
+    <button class="productButton">BUY NOW!</button>
+  </div>
+
+  <div class="payment">
+    <h1>Personal Information</h1>
+    <input type="text" placeholder="Name" class="payInput" />
+    <input type="text" placeholder="Phone Number" class="payInput" />
+    <input type="text" placeholder="Address" class="payInput" />
+    <h1>Card Information</h1>
+    <div class="cardIcons">
+      <img src="visa.png" alt="" class="cardIcon" />
+      <img src="mastercard.png" alt="" class="cardIcon" />
+    </div>
+    <input type="password" placeholder="Card Number" class="payInput" />
+    <div class="cardInfo">
+      <input type="text" placeholder="MM" class="payInput sm" />
+      <input type="text" placeholder="YYYY" class="payInput sm" />
+      <input type="text" placeholder="CVV" class="payInput sm" />
+    </div>
+    <button class="payButton">Checkout</button>
+    <span class="close">X</span>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="galleryItem">
+    <img src="Michelle Mattar.jpeg" alt="" class="galleryImg" />
+    <h1 class="galleryTitle">Be Yourself!</h1>
+  </div>
+  <div class="galleryItem">
+    <img src="picture of products.png" alt="" class="galleryImg" />
+    <h1 class="galleryTitle">Nourish your skin</h1>
+  </div>
+  <div class="galleryItem">
+    <img src="picture of skin 2. png.jpg" alt="" class="galleryImg" />
+    <h1 class="galleryTitle">Glass Skin</h1>
+  </div>
+</section>
+
+<section class="newSeason">
+  <div class="nsItem">
+    <img src="cream on hand.png" alt="" class="nsImg" />
+  </div>
+  <div class="nsItem centerContent">
+    <h3 class="nsSmallTitle">INTRODUCING</h3>
+    <h1 class="nsBigTitle">The New Glow</h1>
+    <h2 class="nsBigSubtitle">Elevate Your Routine</h2>
+    <p class="nsDesc">Experience skincare redefined with luminous hydration and timeless beauty.</p>
+    <a href="products.html">
+      <button class="nsButton">EXPLORE COLLECTION</button>
+    </a>
+    
+  </div>  
+  <div class="nsItem">
+    <img src="products 4.png" alt="" class="nsImg" />
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="footer-left">
+    <h2>Stay Posted + Unlock 15% Off</h2>
+    <p>Keep up with all things GlowCare and save on your next $35+ order.</p>
+    <input type="text" placeholder="Phone" class="footerInput" />
+    <input type="email" placeholder="Email" class="footerInput" />
+    <button id="subscribeButton" class="footerButton">Subscribe</button>
+    <p id="thankYouMessage" style="display: none; color: lightgreen; font-weight: bold; margin-top: 10px;">
+   Thank you for subscribing! 🎉
+  </p>
+
+    <p class="footerLegal">By subscribing you agree to our Terms of Use and Privacy Policy.</p>
+  </div>
+
+  <div class="footer-right">
+    <div class="footer-section">
+      <h3>Customer Service</h3>
+      <ul>
+        <li>Order Status</li>
+        <li>Shipping Information</li>
+        <li>Returns</li>
+        <li>Contact Us</li>
+        <li>Help & FAQs</li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>About</h3>
+      <ul>
+        <li>About the Brands</li>
+        <li>Clara Lionel Foundation</li>
+        <li>Student Discounts</li>
+        <li>Careers</li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <img src="skin.jpeg" alt="Skin Image" class="footerImage" />
+    </div>
+  </div>
+</footer>
+
+<div class="chat-button" id="chatButton">
+  <img src="chat-icon.jpeg" alt="Chat" class="chat-icon">
+  
+</div>
+
+<div class="chat-popup" id="chatPopup">
+  <div class="chat-header">
+    <span>Hi! How can we help?</span>
+    <span class="chat-close" id="chatClose">X</span>
+  </div>
+  <div class="chat-body">
+    <div class="chat-option">
+      <button class="chat-question">How do I cancel or change my order? <span class="arrow">➔</span></button>
+      <p class="chat-answer">You can cancel or update your order within 2 hours after placing it. Please email us and we'll assist you right away!</p>
+    </div>
+    
+    <div class="chat-option">
+      <button class="chat-question">How do I start a return? <span class="arrow">➔</span></button>
+      <p class="chat-answer">You can start a return within 30 days of receiving your order. Simply visit our Returns page for easy instructions.</p>
+    </div>
+    
+    <div class="chat-option">
+      <button class="chat-question">How can I get product recommendations? <span class="arrow">➔</span></button>
+      <p class="chat-answer">We offer personalized skincare advice! Send us a message with your skin type and concerns, and we'll recommend the best products for you.</p>
+    </div>
+    
+    <div class="chat-option">
+      <button class="chat-question">When will my order arrive? <span class="arrow">➔</span></button>
+      <p class="chat-answer">Most orders ship within 24-48 hours. Delivery times depend on your location, but typically range from 3-7 business days.</p>
+    </div>
+    
+    <div class="chat-option">
+      <button class="chat-question">Do you offer gift packaging? <span class="arrow">➔</span></button>
+      <p class="chat-answer">Yes! We offer beautiful gift packaging options at checkout. Perfect for special occasions!</p>
+    </div>
+  </div>
+  
+<script src="app.js"></script>
+</body>
+</html>
+
+
+
+CSS 
+
+css -backup
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #fafafa;
+}
+
+
+.nav {
+  background-color: #f8f8f8;
+  padding: 20px 50px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 50px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  width: 170px;
+  object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.menuItem {
+  cursor: pointer;
+  color: #666;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.menuItem:hover {
+  color: black;
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 8px 15px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.sliderWrapper {
+  display: flex;
+  width: 500vw;
+  transition: all 1.5s ease-in-out;
+}
+
+.sliderItem {
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderImg, video.sliderImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.sliderTitle {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: right;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+}
+
+.buyButton {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buyButton:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+.feature {
+  text-align: center;
+}
+
+.featureIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.feature h3 {
+  margin: 15px 0 10px;
+}
+
+.feature p {
+  color: gray;
+  font-size: 14px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  position: relative;
+  background-color: #f2f2f2;
+}
+
+.productImg {
+  width: 40%;
+}
+
+.productDetails {
+  margin-left: 50px;
+}
+
+.productTitle {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.productPrice {
+  margin: 20px 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.productDesc {
+  color: #777;
+  font-size: 18px;
+}
+
+.colors {
+  display: flex;
+  margin: 20px 0;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.productButton {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.productButton:hover {
+  background-color: white;
+  color: black;
+}
+
+.payment {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: white;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  display: none;
+  flex-direction: column;
+}
+
+.payInput {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.cardIcons {
+  display: flex;
+  margin: 10px 0;
+}
+
+.cardIcon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sm {
+  width: 30%;
+}
+
+.payButton {
+  margin-top: 20px;
+  background-color: #369e62;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: gray;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.galleryItem {
+  margin: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.galleryImg {
+  width: 100%;
+  max-width: 400px;
+}
+
+.galleryTitle {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.newSeason {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.nsItem {
+  margin: 10px;
+  flex: 1;
+}
+
+.nsImg {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  background-color: black;
+  color: white;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footerInput {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.footerButton {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.footerLegal {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+.footer-right {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  margin-bottom: 20px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  color: #444; 
+}
+
+a:focus, button:focus {
+  outline: 2px solid #5B9DD9; 
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footerImage {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.chat-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fafafa;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.chat-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.chat-popup {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  width: 300px;
+  background-color: #fdf8f6;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.chat-header {
+  background-color: #f5e5e0;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.chat-close {
+  cursor: pointer;
+}
+
+.chat-body {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.chat-option {
+  margin-bottom: 15px;
+}
+
+.chat-question {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-question .arrow {
+  transition: transform 0.3s ease;
+}
+
+/* Når spørgsmålet er aktivt (åbent) */
+.chat-question.active .arrow {
+  transform: rotate(90deg);
+}
+
+.chat-answer {
+  max-height: 0;
+  overflow: hidden;
+  font-size: 14px;
+  color: #555;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  padding-left: 10px;
+}
+
+.chat-answer.show {
+  max-height: 200px; 
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .nav-container {
+    flex-direction: column;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .sliderWrapper {
+    flex-direction: column;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .logo-container {
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .menuItem {
+    font-size: 16px;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .sliderWrapper {
+    flex-direction: column;
+  }
+
+
+  .productImg {
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footer-left {
+    margin-bottom: 20px;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+}
+
+.centerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nsSmallTitle {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.nsBigTitle {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 5px 0;
+  color: #111;
+}
+
+.nsBigSubtitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 5px 0 20px;
+  color: #333;
+}
+
+.nsDesc {
+  font-size: 16px;
+  color: #666;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.product-card {
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-card-title {
+  margin: 15px 0 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.product-card-price {
+  color: #444;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.product-card-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.product-card-button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.productDetail {
+  background-color: #f0f0f0; 
+}
+
+.productDetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 80px;
+  background-color: #fafafa;
+}
+
+.productDetailImg {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.productDetailInfo {
+  max-width: 400px;
+}
+
+.productDetailInfo h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.productDetailInfo h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.productDetailInfo p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.productButton {
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.productButton:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.featureLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.contact-section h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contactInput, .contactTextarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.contactTextarea {
+  height: 150px;
+  resize: none;
+}
+
+.basket {
+  position: relative;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.basketIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.basketCount {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchResults {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1000;
+  display: none;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.searchResultItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.searchResultItem:hover {
+  background-color: #f5f5f5;
+}
+
+.searchResultItem img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.searchResultItem span {
+  font-size: 14px;
+  color: #333;
+}
+
+JS
+
+
+backup js
+
+
+const wrapper = document.querySelector(".sliderWrapper");
+const menuItems = document.querySelectorAll(".menuItem");
+
+const products = [
+  {
+    id: 1,
+    title: "Hydrating Mist",
+    price: 25,
+    desc: "A refreshing mist to hydrate and rejuvenate your skin anytime, anywhere.",
+    colors: [
+      {
+        code: "lightblue",
+        img: "cleanser.jpeg",
+      },
+      {
+        code: "lightgray",
+        img: "serum 7.webp",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Vitamin C Serum",
+    price: 45,
+    desc: "Brighten your complexion with our powerful Vitamin C serum rich in antioxidants.",
+    colors: [
+      {
+        code: "orange",
+        img: "vitamin c.jpeg",
+      },
+      {
+        code: "peachpuff",
+        img: "Vitamin c.jpeg",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Aloe Cleanser",
+    price: 19,
+    desc: "Gently cleanse and soothe your skin with natural aloe vera extracts.",
+    colors: [
+      {
+        code: "lightgreen",
+        img: "Cleanser.jpeg",
+      },
+      {
+        code: "mintcream",
+        img: "Cleanser.jpeg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Night Repair Cream",
+    price: 60,
+    desc: "Repair and nourish your skin overnight for a radiant glow by morning.",
+    colors: [
+      {
+        code: "lavender",
+        img: "Night repair.jpeg",
+      },
+      {
+        code: "thistle",
+        img: "Night repair.jpeg",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "SPF Day Lotion",
+    price: 35,
+    desc: "Protect your skin daily with our lightweight SPF lotion.",
+    colors: [
+      {
+        code: "beige",
+        img: "SPF.jpeg",
+      },
+      {
+        code: "white",
+        img: "SPF.jpeg",
+      },
+    ],
+  },
+];
+
+let choosenProduct = products[0];
+
+const currentProductTitle = document.querySelector(".productTitle");
+const currentProductPrice = document.querySelector(".productPrice");
+const currentProductColors = document.querySelectorAll(".color");
+
+
+menuItems.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    wrapper.style.transform = `translateX(${-100 * index}vw)`;
+    choosenProduct = products[index];
+
+
+    currentProductTitle.textContent = choosenProduct.title;
+    currentProductPrice.textContent = "$" + choosenProduct.price;
+
+
+    const container = document.querySelector(".productImg").parentNode;
+    document.querySelector(".productImg").remove();
+
+
+    let media;
+    const isVideo = choosenProduct.colors[0].img.includes(".mp4");
+    if (isVideo) {
+      media = document.createElement("video");
+      media.autoplay = true;
+      media.muted = true;
+      media.loop = true;
+      media.className = "productImg";
+
+      const source = document.createElement("source");
+      source.src = choosenProduct.colors[0].img;
+      source.type = "video/mp4";
+      media.appendChild(source);
+    } else {
+      media = document.createElement("img");
+      media.src = choosenProduct.colors[0].img;
+      media.className = "productImg";
+    }
+    container.insertBefore(media, container.firstChild);
+
+
+    currentProductColors.forEach((color, i) => {
+      color.style.backgroundColor = choosenProduct.colors[i].code;
+    });
+  });
+});
+
+
+currentProductColors.forEach((color, index) => {
+  color.addEventListener("click", () => {
+    const container = document.querySelector(".productImg").parentNode;
+    document.querySelector(".productImg").remove();
+
+    const isVideo = choosenProduct.colors[index].img.includes(".mp4");
+    let media;
+    if (isVideo) {
+      media = document.createElement("video");
+      media.autoplay = true;
+      media.muted = true;
+      media.loop = true;
+      media.className = "productImg";
+
+      const source = document.createElement("source");
+      source.src = choosenProduct.colors[index].img;
+      source.type = "video/mp4";
+      media.appendChild(source);
+    } else {
+      media = document.createElement("img");
+      media.src = choosenProduct.colors[index].img;
+      media.className = "productImg";
+    }
+
+    container.insertBefore(media, container.firstChild);
+  });
+});
+
+
+// Product popup (checkout popup)
+const productButton = document.querySelector(".productButton");
+const payment = document.querySelector(".payment");
+const close = document.querySelector(".close");
+
+productButton.addEventListener("click", () => {
+  payment.style.display = "flex";
+});
+
+close.addEventListener("click", () => {
+  payment.style.display = "none";
+});
+
+// Chat popup: åbne og lukke
+const chatButton = document.getElementById('chatButton');
+const chatPopup = document.getElementById('chatPopup');
+const chatClose = document.getElementById('chatClose');
+
+chatButton.addEventListener('click', () => {
+  chatPopup.style.display = 'flex';
+});
+
+chatClose.addEventListener('click', () => {
+  chatPopup.style.display = 'none';
+});
+
+const chatQuestions = document.querySelectorAll('.chat-question');
+
+chatQuestions.forEach((question) => {
+  question.addEventListener('click', () => {
+    // Først luk alle andre svar
+    chatQuestions.forEach(q => {
+      if (q !== question) {
+        q.classList.remove('active');
+        q.nextElementSibling.classList.remove('show');
+      }
+    });
+
+    // Toggle aktivt spørgsmål
+    question.classList.toggle('active');
+    question.nextElementSibling.classList.toggle('show');
+  });
+});
+
+const subscribeButton = document.getElementById('subscribeButton');
+const thankYouMessage = document.getElementById('thankYouMessage');
+
+subscribeButton.addEventListener('click', (e) => {
+  e.preventDefault(); // Forhindrer side reload
+  thankYouMessage.style.display = 'block'; // Viser besked
+  subscribeButton.disabled = true; // Deaktiverer knappen
+  subscribeButton.innerText = "Subscribed!";
+});
+
+
+let basketCount = 0; // Starter med 0 varer i kurven
+
+
+const basketCountElement = document.querySelector(".basketCount");
+
+// Function to update basket count display
+function updateBasketCount() {
+  basketCountElement.textContent = basketCount; // Opdaterer antallet af varer i kurven
+}
+
+const buyButtons = document.querySelectorAll(".productButton");
+
+
+buyButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    basketCount++; 
+    updateBasketCount(); 
+  });
+});
+
+const searchInput = document.querySelector(".searchInput");
+const searchResults = document.getElementById("searchResults");
+
+searchInput.addEventListener("input", function () {
+  const query = this.value.toLowerCase().trim();
+  searchResults.innerHTML = "";
+
+  if (query.length === 0) {
+    searchResults.style.display = "none";
+    return;
+  }
+
+  const matchedProducts = products.filter(product =>
+    product.title.toLowerCase().includes(query)
+  );
+
+  if (matchedProducts.length > 0) {
+    searchResults.style.display = "block";
+    matchedProducts.forEach(product => {
+      const resultItem = document.createElement("div");
+      resultItem.className = "searchResultItem";
+
+      resultItem.innerHTML = `
+        <img src="${product.colors[0].img}" alt="${product.title}">
+        <span>${product.title}</span>
+      `;
+
+      resultItem.addEventListener("click", () => {
+        // Gem valgte produkt i localStorage og skift side
+        localStorage.setItem("selectedProduct", JSON.stringify(product));
+        window.location.href = "product.html";
+      });
+
+      searchResults.appendChild(resultItem);
+    });
+  } else {
+    searchResults.style.display = "none";
+  }
+});
+
+
+
+<PRODUCT.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail | GlowCare Skincare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav id="nav" class="nav">
+    <div class="nav-container">
+      <div class="logo-container">
+        <a href="index.html"><img src="SKIN text.png" alt="Logo" class="logo" /></a>
+      </div>
+  
+      <div class="nav-links">
+        <h3 class="menuItem">Hydrating Mist</h3>
+        <h3 class="menuItem">Vitamin C Serum</h3>
+        <h3 class="menuItem">Aloe Cleanser</h3>
+        <h3 class="menuItem">Night Repair</h3>
+        <h3 class="menuItem">SPF Lotion</h3>
+      </div>
+  
+      <div class="search-bar" style="position: relative;">
+        <input type="text" placeholder="Search skincare..." class="searchInput" />
+        <img src="Search.png" alt="Search Icon" class="searchIcon" />
+        <div class="searchResults" id="searchResults"></div> 
+      </div>
+      
+      <div class="basket">
+        <img src="basket.jpeg" alt="Basket Icon" class="basketIcon" />
+        <span class="basketCount">0</span>
+      </div>    
+    </div>
+  </nav>
+  
+
+<!-- Produktdetaljer -->
+<div class="productDetail">
+  <img id="productImage" class="productDetailImg" alt="Product Image" />
+  <div class="productDetailInfo">
+    <h1 id="productName">Loading...</h1>
+    <h2 id="productPrice"></h2>
+    <p id="productDesc"></p>
+    <button onclick="window.location.href='index.html'" class="productButton">Back to Home</button>
+  </div>
+</div>
+
+<!-- Script der henter valgt produkt -->
+<script>
+// Hent produktdata fra localStorage
+const selected = JSON.parse(localStorage.getItem("selectedProduct"));
+
+if (selected) {
+  document.getElementById("productImage").src = selected.colors[0].img;
+  document.getElementById("productName").textContent = selected.title;
+  document.getElementById("productPrice").textContent = "$" + selected.price;
+  document.getElementById("productDesc").textContent = "Experience the best skincare for your routine.";
+} else {
+  document.getElementById("productName").textContent = "Product not found.";
+}
+</script>
+<script src="app.js"></script>
+
+</body>
+</html>
+

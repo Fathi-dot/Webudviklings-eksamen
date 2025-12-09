@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail | GlowCare Skincare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav id="nav" class="nav">
+    <div class="nav-container">
+      <div class="logo-container">
+        <a href="index.html"><img src="SKIN text.png" alt="Logo" class="logo" /></a>
+      </div>
+  
+      <div class="nav-links">
+        <h3 class="menuItem">Hydrating Mist</h3>
+        <h3 class="menuItem">Vitamin C Serum</h3>
+        <h3 class="menuItem">Aloe Cleanser</h3>
+        <h3 class="menuItem">Night Repair</h3>
+        <h3 class="menuItem">SPF Lotion</h3>
+      </div>
+  
+      <div class="search-bar" style="position: relative;">
+        <input type="text" placeholder="Search skincare..." class="searchInput" />
+        <img src="Search.png" alt="Search Icon" class="searchIcon" />
+        <div class="searchResults" id="searchResults"></div> 
+      </div>
+      
+      <div class="basket">
+        <img src="basket.jpeg" alt="Basket Icon" class="basketIcon" />
+        <span class="basketCount">0</span>
+      </div>    
+    </div>
+  </nav>
+  
+
+<!-- Produktdetaljer -->
+<div class="productDetail">
+  <img id="productImage" class="productDetailImg" alt="Product Image" />
+  <div class="productDetailInfo">
+    <h1 id="productName">Loading...</h1>
+    <h2 id="productPrice"></h2>
+    <p id="productDesc"></p>
+    <button onclick="window.location.href='index.html'" class="productButton">Back to Home</button>
+  </div>
+</div>
+
+<!-- Script der henter valgt produkt -->
+<script>
+// Hent produktdata fra localStorage
+const selected = JSON.parse(localStorage.getItem("selectedProduct"));
+
+if (selected) {
+  document.getElementById("productImage").src = selected.colors[0].img;
+  document.getElementById("productName").textContent = selected.title;
+  document.getElementById("productPrice").textContent = "$" + selected.price;
+  document.getElementById("productDesc").textContent = "Experience the best skincare for your routine.";
+} else {
+  document.getElementById("productName").textContent = "Product not found.";
+}
+</script>
+<script src="app.js"></script>
+
+</body>
+</html>
+
